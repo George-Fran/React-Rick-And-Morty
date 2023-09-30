@@ -5,10 +5,10 @@ function NavPage(props) {
     return (
         <header className='d-flex justify-content-between align-items-center'>
             <p>Page: {props.page}</p>
-            <button className='btn btn-primary btn-sm'
+            <button className='btn btn-sm pepe '
             onClick={() => props.setPage(props.page + 1)}	
             >
-                Page {props.page + 1}
+                +
             </button>
         </header>
     )

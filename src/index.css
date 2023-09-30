@@ -26,7 +26,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -67,4 +67,25 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.pepe {
+  position: fixed;
+  background: #747bff;
+  color: white;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+::-webkit-scrollbar {
+  color: #1a1a1a;
+}
+::-webkit-scrollbar-track {
+  background: #322653;
+}
+::-webkit-scrollbar-thumb {
+  background: #FCE09B;
+  border-radius: 15px;
 }

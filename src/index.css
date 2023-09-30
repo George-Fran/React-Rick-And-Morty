@@ -48,9 +48,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -62,7 +60,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #121cd8;
   }
   button {
     background-color: #f9f9f9;
@@ -70,13 +68,25 @@ button:focus-visible {
 }
 .pepe {
   position: fixed;
-  background: #747bff;
-  color: white;
+  background: #7fd1c3;
+  color: rgb(0, 0, 0);
   right: 30px;
   bottom: 30px;
   border-radius: 50px;
   width: 60px;
   height: 60px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.pepe img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 15px;
+  top: 16px;
+}
+.pepe:hover {
+  background: #ecdba9;
 }
 
 ::-webkit-scrollbar {

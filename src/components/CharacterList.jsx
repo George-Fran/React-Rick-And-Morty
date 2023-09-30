@@ -5,10 +5,10 @@ function NavPage(props) {
     return (
         <header className='d-flex justify-content-between align-items-center'>
             <p>Page: {props.page}</p>
-            <button className='btn btn-sm pepe '
+            <button className='pepe '
             onClick={() => props.setPage(props.page + 1)}	
             >
-                +
+                <img src="https://cdn-icons-png.flaticon.com/512/37/37770.png" alt="aea" />
             </button>
         </header>
     )
